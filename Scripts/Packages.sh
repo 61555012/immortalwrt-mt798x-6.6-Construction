@@ -1,4 +1,9 @@
 #!/bin/bash
+#istore商店插件
+echo >> feeds.conf.default
+echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
+./scripts/feeds update istore
+./scripts/feeds install -d y -p istore luci-app-store
 
 #安装和更新软件包
 UPDATE_PACKAGE() {
