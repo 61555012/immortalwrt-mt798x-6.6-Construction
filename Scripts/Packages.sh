@@ -92,6 +92,7 @@ UPDATE_PACKAGE "istore-nas" "linkease/nas-packages" "master" "
 UPDATE_PACKAGE "istore-nas-ui" "linkease/nas-packages-luci" "main"
 UPDATE_PACKAGE "app-store-ui" "linkease/istore-ui" "main"
 UPDATE_PACKAGE "luci-app-store" "linkease/istore" "main"
+# UPDATE_PACKAGE "istore-app" "kenzok8/openwrt-packages" "master" "" "luci-app-quickstart luci-app-istorex"
 
 #更新软件包版本
 UPDATE_VERSION() {
