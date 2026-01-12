@@ -87,9 +87,9 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 
 #istore商店插件
-# clone_all https://github.com/linkease/istore-ui package/istore-ui
-# clone_all https://github.com/linkease/istore luci package/luci-app-store
-UPDATE_PACKAGE "istore-ui" "linkease/istore-ui" "main"
+UPDATE_PACKAGE "istore-nas" "linkease/nas-packages" "master" "
+UPDATE_PACKAGE "istore-nas-ui" "linkease/nas-packages-luci" "main"
+UPDATE_PACKAGE "app-store-ui" "linkease/istore-ui" "main"
 UPDATE_PACKAGE "luci-app-store" "linkease/istore" "main"
 
 #更新软件包版本
