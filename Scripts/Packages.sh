@@ -1,10 +1,4 @@
 #!/bin/bash
-#istore商店插件
-echo >> feeds.conf.default
-echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
-./scripts/feeds update istore
-./scripts/feeds install -d y -p istore luci-app-store
-
 #安装和更新软件包
 UPDATE_PACKAGE() {
 	local PKG_NAME=$1
@@ -92,6 +86,12 @@ UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base q
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
+
+#istore商店插件
+# clone_all https://github.com/linkease/istore-ui package/istore-ui
+# clone_all https://github.com/linkease/istore luci package/luci-app-store
+UPDATE_PACKAGE "istore-ui" "linkease/istore-ui" "main"
+UPDATE_PACKAGE "luci-app-store" "linkease/istore" "main"
 
 #更新软件包版本
 UPDATE_VERSION() {
