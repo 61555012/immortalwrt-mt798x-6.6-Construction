@@ -77,8 +77,8 @@ CONFIG_PACKAGE_luci-app-firewall=y
 # CONFIG_PACKAGE_luci-app-watchdog=y  #看门狗
 
 #isrotr组件选择
-CONFIG_PACKAGE_luci-app-store=y
-CONFIG_PACKAGE_luci-app-quickstart=y
+# CONFIG_PACKAGE_luci-app-store=y
+# CONFIG_PACKAGE_luci-app-quickstart=y
 # CONFIG_PACKAGE_luci-app-istorex=y
 
 #删除插件
@@ -137,5 +137,6 @@ CONFIG_PACKAGE_mmc-utils=y
 # CONFIG_PACKAGE_kmod-usb-acm is not set
 # CONFIG_PACKAGE_kmod-usb-ohci is not set
 # CONFIG_PACKAGE_kmod-usb-uhci is not set
+
 
 
