@@ -2,7 +2,7 @@
 
 PADAVANONLY-24.10源码：
 
-https://github.com/dailook/immortalwrt-mt798x-24.10.git
+https://github.com/padavanonly/immortalwrt-mt798x-6.6.git
 
 # U-BOOT
 
