@@ -62,7 +62,7 @@ UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
 UPDATE_PACKAGE "passwall-packages" "Openwrt-Passwall/openwrt-passwall-packages" "main" 
 
 # 常用工具与应用
-UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"  #luci-app-ddns-go
+#UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"  #luci-app-ddns-go
 UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "master" "" "homebox speedtest"  #homebox speedtest测速
 UPDATE_PACKAGE "poweroffdevice" "sirpdboy/luci-app-poweroffdevice" "js"   #关机
 UPDATE_PACKAGE "luci-app-taskplan" "sirpdboy/luci-app-taskplan" "master"    #计划任务
